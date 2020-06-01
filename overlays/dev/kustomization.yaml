@@ -8,6 +8,6 @@ configMapGenerator:
 - literals:
   - TEXT1="Welcome to"
   - TEXT2="Devistan"
-  name: rsvpconfig-prod
+  name: rsvpconfig-dev
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
